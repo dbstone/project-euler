@@ -1,6 +1,6 @@
 import timeit
 
-# O(n)
+# O(n) -- faster than solve2 because it skips unnecessary iteration
 def solve1():
     total = 0
     x = 3
